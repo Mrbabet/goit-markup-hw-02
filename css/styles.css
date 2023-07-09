@@ -27,6 +27,7 @@
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 2%;
+  color: var(--navyblue);
 }
 .header-s {
   font-family: "Roboto", sans-serif;
@@ -34,12 +35,14 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 2%;
+  color: var(--navyblue);
 }
 .text-m {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: var(--slate, #434455);
 }
 .text-s {
   font-family: "Roboto", sans-serif;
@@ -75,11 +78,86 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
 }
 button {
   cursor: pointer;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--iris);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo .accent {
+  color: var(--navyblue);
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links .link {
+  text-decoration: none;
+  color: var(--navyblue);
+}
+.contact {
+  list-style: none;
+}
+.contact .link {
+  text-decoration: none;
+  color: var(--slate);
+}
+footer {
+  background-color: var(--navyblue);
+}
+footer .logo .accent {
+  color: var(--cloud);
+}
+footer .footer-text {
+  color: var(--cloud);
+}
 
-/* Index.html */
+/* Home */
+.hero {
+  background-color: var(--navyblue);
+}
+.hero .header-xl {
+  color: var(--white, #fff);
+  text-align: center;
+}
+.hero button {
+  color: var(--white);
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.team-presentation {
+  background-color: var(--cloud);
+}
+.team-member .team-member-text h3 {
+  color: var(--navyblue, #2e2f42);
+}
+.team-member .team-member-text p {
+  color: var(--slate, #434455);
+}
 
-/* portfolio.html */
+/* Portfolio */
+.filters button {
+  padding: 12px 24px;
+  color: var(--iris);
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+}
+.filters button:hover,
+.filters button:focus {
+  color: var(--white, #fff);
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
