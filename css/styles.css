@@ -1,10 +1,22 @@
 /* Variables */
-
+:root {
+  --iris: #4d5ae5; /* Primary Brand*/
+  --ocean: #404bbf; /* Pressed state*/
+  --navyblue: #2e2f42; /* Dark*/
+  --green: #31d0aa; /* Success*/
+  --slate: #434455; /* Text*/
+  --lightslate: #8e8f99; /* Subtle text*/
+  --cornflower: #e7e9fc; /* Accent*/
+  --cloud: #f4f4fd; /* Light*/
+  --navybluemodal: #2e2f4266; /* Modal overlay*/
+  --grey: #2e2f42; /* Hero background*/
+  --white: #fff; /* White background*/
+  --dairy: #fcfcfc; /* Modal background*/
+}
 /* Typography */
 .header-xl {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 2%;
@@ -12,7 +24,6 @@
 .header-m {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 2%;
@@ -20,21 +31,18 @@
 .header-s {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 2%;
 }
 .text-m {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
 }
 .text-s {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 4%;
@@ -55,7 +63,6 @@
 }
 .text-link {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 4%;
@@ -67,6 +74,10 @@
 /* Global styles */
 
 body {
+  font-family: "Roboto", sans-serif;
+}
+button {
+  cursor: pointer;
 }
 
 /* Index.html */
