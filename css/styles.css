@@ -83,6 +83,11 @@ body {
 button {
   cursor: pointer;
 }
+header {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -97,8 +102,13 @@ button {
   color: var(--navyblue);
 }
 .nav-links {
+  padding: 0;
+  margin: 0;
   list-style: none;
+  display: flex;
+  gap: 20px;
 }
+
 .nav-links .link {
   text-decoration: none;
   color: var(--navyblue);
@@ -119,7 +129,11 @@ button {
   color: var(--ocean);
 }
 .contact {
+  padding: 0;
+  margin: 0;
   list-style: none;
+  display: flex;
+  gap: 20px;
 }
 .contact .link {
   text-decoration: none;
