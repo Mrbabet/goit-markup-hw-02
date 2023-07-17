@@ -113,19 +113,11 @@ header {
   text-decoration: none;
   color: var(--navyblue);
 }
-.nav-links li:hover {
-  display: flex;
-  width: min-content;
-  height: 52px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  flex-shrink: 0;
-  border-bottom: solid var(--ocean) 4px;
-  border-radius: 2px;
+
+.nav-links .link:hover {
+  color: var(--ocean);
 }
-.nav-links li:hover .link {
+.nav-links .link:focus {
   color: var(--ocean);
 }
 .contact {
