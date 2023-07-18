@@ -15,14 +15,12 @@
 }
 /* Typography */
 .header-xl {
-  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .header-m {
-  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -30,7 +28,6 @@
   color: var(--navyblue);
 }
 .header-s {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -38,34 +35,29 @@
   color: var(--navyblue);
 }
 .text-m {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--slate, #434455);
 }
 .text-s {
-  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.48px;
 }
 .text-m-500 {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .text-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
 .text-link {
-  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.48px;
@@ -80,7 +72,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--navyblue);
 }
-button {
+.hero-button,
+.filter-button {
   cursor: pointer;
 }
 .header {
