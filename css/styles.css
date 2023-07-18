@@ -78,8 +78,6 @@ body {
 }
 .header {
   height: 72px;
-  display: flex;
-  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
